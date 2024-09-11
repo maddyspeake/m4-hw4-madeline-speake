@@ -1,0 +1,75 @@
+body{
+    background-color: #3B3097;
+    color: navajowhite;
+    max-width: 900px;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+header{
+    margin: 35px 0;
+    font-size: 25px;
+    text-shadow: goldenrod 0 0px 5px;
+    background-image:image-set("Images/insidesagrada.jpg");
+    padding: 50px 0;
+}
+
+nav{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+button{
+    background-color: #DAB567;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin-right: 25px;
+    border-radius: 80px;
+}
+
+section{
+    border-style: dotted;
+    border-color: gold;
+    border-radius: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h2{
+    color:#7FD1A8;
+    font-size: 24px;
+}
+
+div.sag{
+    text-align:left;
+}
+
+#right{    
+float: right;
+    }
+
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+div.park{
+    text-align: right;
+}
+
+#left{
+float: left;
+}
+
+footer{
+    margin: 50px 0;
+    color: goldenrod;
+}
+
+footer a{
+    color: black;
+}
+

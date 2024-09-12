@@ -4,7 +4,6 @@ body{
     max-width: 900px;
     margin: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
 }
 
 header{
@@ -15,8 +14,11 @@ header{
     padding: 50px 0;
 }
 
+nav, h2, div.about, div.cas, footer{
+    text-align:center;
+}
+
 nav{
-    text-align: center;
     padding-bottom: 50px;
 }
 
@@ -39,10 +41,6 @@ section{
 h2{
     color:#7FD1A8;
     font-size: 24px;
-}
-
-div.sag{
-    text-align:left;
 }
 
 #right{    

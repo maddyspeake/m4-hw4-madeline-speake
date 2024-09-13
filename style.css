@@ -14,7 +14,11 @@ header{
     padding: 50px 0;
 }
 
-nav, h2, div.about, div.cas, footer{
+h1{
+    background-color: #3B3097;
+}
+
+nav, h2, p.about, div.cas, footer{
     text-align:center;
 }
 
@@ -22,12 +26,15 @@ nav{
     padding-bottom: 50px;
 }
 
-button{
+#button{
     background-color: #DAB567;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
     margin-right: 25px;
     border-radius: 80px;
+    padding: 10px 0;
+    border-style: outset;
+    border-color:gold;
 }
 
 section{
@@ -36,6 +43,7 @@ section{
     border-radius: 80px;
     padding-left: 30px;
     padding-right: 30px;
+    margin: 20px 0;
 }
 
 h2{
@@ -54,7 +62,7 @@ float: right;
         width: 50%;
       }
 
-div.park{
+p.park{
     text-align: right;
 }
 
